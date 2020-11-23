@@ -1,0 +1,354 @@
+/* .arrow-design1 {
+	margin-right: 10px;
+} */
+/*styles done after 22nov...for mobile screen Header:Level two*/
+* {
+	margin: 0;
+	padding: 0;
+}
+header {
+	nav {
+		width: 100%;
+		border: 1px solid grey;
+		border-top: 2px solid orangered;
+		height: 80px;
+		ul {
+			float: left;
+			font-weight: bold;
+			margin: 10px auto;
+			padding: 0px;
+			li {
+				display: inline-block;
+				list-style: none;
+				padding: 20px;
+				a {
+					text-decoration: none;
+					color: black;
+				}
+				.arrowdown-design {
+					margin-left: 10px;
+					visibility: visible;
+				}
+				.arrowright-design {
+					visibility: hidden;
+				}
+			}
+		}
+		.logo {
+			height: 60px;
+			width: auto;
+			margin-left: 2%;
+			margin-top: 10px;
+			position: relative;
+			float: left;
+		}
+		.btnsearch {
+			padding: 5px;
+			position: relative;
+			left: 20%;
+			color: black;
+			border: none;
+			background: none;
+			font-weight: bold;
+			height: 80px;
+			width: 8%;
+			&:hover {
+				background-color: #def2f7;
+			}
+		}
+		.btnlogin {
+			position: relative;
+			padding: 5px;
+			color: black;
+			border: none;
+			background: none;
+			font-weight: bold;
+			height: 80px;
+			left: 22%;
+			width: 8%;
+			&:hover {
+				background-color: #def2f7;
+			}
+		}
+		label {
+			#btn {
+				color: black;
+				font-size: 30px;
+				float: right;
+				line-height: 80px;
+				margin-right: 40px;
+				cursor: pointer;
+				display: none;
+			}
+			#cancel {
+				color: black;
+				font-size: 30px;
+				float: right;
+				line-height: 80px;
+				margin-right: 40px;
+				cursor: pointer;
+				display: none;
+			}
+		}
+		#check {
+			display: none;
+		}
+		.main-nav {
+			.menu-list {
+				.menu-list-content {
+					height: 100%;
+					position: fixed;
+					left: 0px;
+					background: #0a0347;
+					width: 365px;
+					display: none;
+					margin-top: 32px;
+					.list-content {
+						background: #0a0347;
+						line-height: 40px;
+						left: 50px;
+						color: #888888;
+						.list-default-content {
+							width: 400px;
+							position: absolute;
+							top: 1%;
+							left: 432px;
+							color: #0a0347;
+							.horizontal-line2 {
+								right: 72px;
+								color: orange;
+								margin-bottom: -23px;
+								margin-top: 33px;
+								width: -21px;
+								position: relative;
+								left: 0px;
+								width: 15px;
+								bottom: 16px;
+							}
+							.list-default-content-heading {
+								color: #0a0347;
+								font-weight: bold;
+							}
+							.list-default-content-paragraph {
+								color: black;
+								font-weight: lighter;
+								max-width: 412px;
+								font-size: 18px;
+								line-height: 24px;
+							}
+						}
+						.sol-sidemenucontent {
+							&:hover {
+								color: orange;
+							}
+							.angleright {
+								float: right;
+								top: 11px;
+								position: relative;
+								left: 55px;
+							}
+							.sol-payments {
+								width: 400px;
+								position: absolute;
+								top: 7%;
+								left: 415px;
+								color: #0a0347;
+								display: none;
+								.horizontal-line3 {
+									position: relative;
+									right: 0px;
+									width: 19px;
+									color: orange;
+								}
+								.Payment-div1 {
+									.sol-sub1-payments {
+										position: relative;
+										top: 11px;
+										p {
+											line-height: 17px;
+											font-weight: lighter !important;
+											color: black !important;
+											position: relative;
+											bottom: -7px;
+										}
+										h3 {
+											color: deepskyblue !important;
+											line-height: 5px;
+											margin: 0px !important;
+											i {
+												color: orange !important;
+											}
+										}
+									}
+								}
+								.Payment-div2 {
+									width: 400px;
+									position: absolute;
+									top: 19%;
+									left: 274px;
+									color: #0a0347;
+									.sol-sub1-payments {
+										p {
+											line-height: 18px;
+											font-weight: lighter;
+											color: black;
+										}
+										h3 {
+											color: deepskyblue;
+											line-height: 5px;
+											margin: 0px;
+											i {
+												color: orange;
+											}
+										}
+									}
+								}
+								.Payment-div3 {
+									width: 400px;
+									position: absolute;
+									top: 19%;
+									left: 548px;
+									.Payment-div3-div1 {
+										position: relative;
+										bottom: 50px;
+										left: 227px;
+									}
+									.Payment-div3-div2 {
+										position: relative;
+										bottom: 40px;
+										height: 255px;
+										background-color: #f1eded;
+										width: 70%;
+										p {
+											line-height: 5px;
+											font-weight: lighter;
+											color: black;
+											position: relative;
+											left: 31px;
+										}
+										h3 {
+											color: deepskyblue;
+											line-height: 0px;
+											margin: 0px;
+											left: 32px;
+											position: relative;
+											i {
+												color: orange;
+											}
+										}
+									}
+								}
+							}
+						}
+						.horizontal-line1 {
+							color: orange;
+							margin-bottom: -23px;
+							margin-top: 33px;
+							width: -21px;
+							position: relative;
+							left: 0px;
+							width: 15px;
+							bottom: 16px;
+						}
+					}
+				}
+				&:hover {
+					.menu-list-content {
+						display: block;
+					}
+				}
+			}
+		}
+	}
+}
+@media (max-width: 767px) {
+	header {
+		nav {
+			label {
+				#btn {
+					display: block;
+				}
+			}
+			ul {
+				position: fixed;
+				width: 100%;
+				height: 100%;
+				background: #0a0347;
+				top: 70px;
+				left: -100%;
+				transition: all .5s;
+				li {
+					display: block;
+					line-height: 30px;
+					border-bottom: 1px solid white;
+					a {
+						font-size: 20px;
+						color: white;
+					}
+					.arrowdown-design {
+						visibility: hidden;
+					}
+					.arrowright-design {
+						visibility: visible;
+						float: right;
+						margin-top: 10px;
+						color: white;
+					}
+				}
+			}
+			#check {
+				&:checked~ul {
+					left: 0;
+				}
+				&:checked~label {
+					#btn {
+						display: none;
+					}
+					#cancel {
+						display: block;
+					}
+				}
+			}
+			.btnsearch {
+				float: right;
+				left: -70px;
+			}
+			.btnlogin {
+				display: none;
+				background-color: #def2f7;
+				width: 100%;
+				left: 0;
+			}
+			.main-nav {
+				position: absolute;
+				display: grid;
+				width: 100%;
+				display: none;
+				li {
+					height: 66px;
+					a {
+						color: #b9b5b5;
+						font-family: sans-serif;
+						font-weight: lighter;
+						height: 100px;
+						padding-top: 14px;
+						position: relative;
+						top: 12px;
+					}
+				}
+				.menu-list {
+					background-color: #0a0347;
+					.menu-list-content {
+						margin-top: 10px;
+						.list-content {
+							.sol-sidemenucontent {
+								position: relative;
+								top: 41px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
